@@ -52,6 +52,7 @@ public class KafkaConfig {
         return config;
     }
 
+
     @Bean
     ProducerFactory <String, ProductCreatedEvent> producerFactory() {
         // Factory берет нативную карту и создает Kafka Producer
