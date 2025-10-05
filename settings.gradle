@@ -1,0 +1,4 @@
+rootProject.name = 'ProductNotifier'
+include 'core'
+include 'EmailNotificationMicroservice'
+include 'kafkaMicroservice'
